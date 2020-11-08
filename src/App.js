@@ -6,7 +6,7 @@ import About from './components/pages/About'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import NotFound from './components/pages/NotFound'
 import {Provider} from './context'
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import {HashRouter as Router, Route, Switch} from 'react-router-dom'
 
 function App() {
   return (
